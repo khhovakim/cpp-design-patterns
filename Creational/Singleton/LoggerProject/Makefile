@@ -50,7 +50,7 @@ $(OBJDIR)/%.o: %.cpp $(INCDIR)/*.h Makefile
 
 # ===== Run the program =====
 .PHONY: run
-run:
+run: all
 	@$(NAME)
 
 # ===== Clean object files only =====
