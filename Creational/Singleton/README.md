@@ -31,7 +31,7 @@ The `Logger`:
   - `include/color.h`   – Coloring for output
   - `src/logger.cpp`    – Logger class definition
   - `obj/*`             – Object files (auto-created)
-  - `log/logs.txt`      – Output log file (auto-created)
+  - `logs.txt`          – Output log file (auto-created)
   - `main.cpp`          – Example usage of the Logger
   - `Makefile`          – Automating program Compilation
 
