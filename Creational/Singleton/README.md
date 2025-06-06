@@ -27,8 +27,9 @@ The `Logger`:
 ## 🗂️ File Structure
 
 - `LoggerProject/`
-  - `include/Logger.h`  – Logger class declaration
-  - `src/Logger.cpp`    – Logger class definition
+  - `include/logger.h`  – Logger class declaration
+  - `include/color.h`   – Coloring for output
+  - `src/logger.cpp`    – Logger class definition
   - `log/logs.txt`      – Output log file (auto-created)
   - `main.cpp`          – Example usage of the Logger
   - `Makefile`          – Automating program Compilation
@@ -42,4 +43,4 @@ The `Logger`:
 ```bash
 cd cpp-design-patterns/Creational/Singleton/LoggerProject/
 make
-./logger
+make run
