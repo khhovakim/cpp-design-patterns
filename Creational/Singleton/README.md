@@ -27,11 +27,11 @@ The `Logger`:
 ## 🗂️ File Structure
 
 - `LoggerProject/`
-  - `Logger.h`   – Logger class declaration
-  - `Logger.cpp` – Logger class definition
-  - `main.cpp`   – Example usage of the Logger
-  - `logs.txt`   – Output log file (auto-created)
-
+  - `include/Logger.h`  – Logger class declaration
+  - `src/Logger.cpp`    – Logger class definition
+  - `log/logs.txt`      – Output log file (auto-created)
+  - `main.cpp`          – Example usage of the Logger
+  - `Makefile`          – Automating program Compilation
 
 ---
 
