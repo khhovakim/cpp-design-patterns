@@ -20,7 +20,7 @@ The `Logger`:
 - Writes logs to a file (`logs.txt`)
 - Supports log levels: `Info`, `Warning`, `Error`
 - Formats messages with timestamps and log level indicators
-- Is accessible globally via `Logger::getInstance()`
+- Is accessible globally via `Logger::getLogger()`
 
 ---
 
