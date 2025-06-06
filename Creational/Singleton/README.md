@@ -25,11 +25,13 @@ The `Logger`:
 ---
 
 ## 🗂️ File Structure
-LoggerProject/
-├── Logger.h # Logger class declaration
-├── Logger.cpp # Logger class definition
-├── main.cpp # Example usage of the Logger
-└── logs.txt # Output log file (auto-created)
+
+- `LoggerProject/`
+  - `Logger.h`   – Logger class declaration
+  - `Logger.cpp` – Logger class definition
+  - `main.cpp`   – Example usage of the Logger
+  - `logs.txt`   – Output log file (auto-created)
+
 
 ---
 
