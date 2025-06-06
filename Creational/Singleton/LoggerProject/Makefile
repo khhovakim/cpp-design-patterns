@@ -48,11 +48,6 @@ $(OBJDIR)/%.o: %.cpp $(INCDIR)/*.h Makefile
 	$(CXX) $(CXXFLAGS) -c $< -o $@ $(INCLUDES)
 	@printf "$(_BLUE)[●] Compiled $< -> $@\n$(_NC)"
 
-# ===== Run the program =====
-.PHONY: run
-run: all
-	@$(NAME)
-
 # ===== Clean object files only =====
 .PHONY: clean
 clean:
@@ -63,6 +58,7 @@ clean:
 .PHONY: fclean
 fclean: clean
 	@rm -f $(NAME)
+	@rm -f log.txt
 	@printf "$(_YELLOW)[✗] Removed executable $(NAME)\n$(_NC)"
 
 # ===== Rebuild everything =====
