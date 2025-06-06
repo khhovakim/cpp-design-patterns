@@ -44,4 +44,4 @@ The `Logger`:
 ```bash
 cd cpp-design-patterns/Creational/Singleton/LoggerProject/
 make
-make run
+./logger
