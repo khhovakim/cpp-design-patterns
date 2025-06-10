@@ -10,4 +10,5 @@ This repository showcases implementations of classic design patterns in modern C
 ### 🚧 Creational Patterns
 These patterns deal with object creation mechanisms.
 
-- 🔹 [Singleton](./Creational/Singleton/README.md) — Ensure a class has only one instance and provide a global access point.
+- 🔹 [Singleton](./Creational/Singleton/README.md) — A creational pattern that ensures a class has only one instance while providing a global point of access to it. This is useful for managing shared resources or implementing centralized control mechanisms.
+- 🔹 [Factory Method](./Creational/FactoryMethod/README.md) — A creational pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
