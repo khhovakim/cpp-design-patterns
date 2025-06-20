@@ -16,6 +16,6 @@ Each project:
 
 | Pattern         | Description                                      | Project                          |
 |-----------------|--------------------------------------------------|----------------------------------|
-| **Singleton**    | Ensure a class has only one instance            | [`LoggerProject`](./Creational/Singleton/LoggerProject) |
-| **Factory Method** | Delegate object creation to subclasses       | [`DocFactory`](./Creational/FactoryMethod/DocFactory)   |
-| **Abstract Factory** | Create families of related objects         | [`PizzaKitFactory`](./Creational/AbstractFactory/PizzaKitFactory) |
+| **Singleton**    | Ensure a class has only one instance            | [`LoggerProject`](./Creational/Singleton/README.md) |
+| **Factory Method** | Delegate object creation to subclasses       | [`DocFactory`](./Creational/FactoryMethod/README.md)   |
+| **Abstract Factory** | Create families of related objects         | [`PizzaKitFactory`](./Creational/AbstractFactory/README.md) |
