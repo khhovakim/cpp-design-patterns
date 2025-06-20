@@ -1,14 +1,21 @@
 # 🎯 C++ Design Patterns
 
-Welcome to the **C++ Design Patterns** collection!  
-This repository showcases implementations of classic design patterns in modern C++ (C++11 and beyond), with clear code structure, real-world examples, and accompanying documentation.
+Welcome to **cpp-design-patterns** — a curated collection of classic **design pattern implementations** in modern **C++20**, each built cleanly, modularly, and explained with real-world examples.
+
+Each project:
+- ✅ Demonstrates a specific design pattern
+- 🧱 Uses modern C++ best practices (RAII, smart pointers, `unique_ptr`, etc.)
+- 📝 Includes a project-specific `README.md`
+- ⚙️ Comes with a simple Makefile to build and run
 
 ---
 
-## 🧩 Pattern Categories
+## 📁 Patterns Implemented
 
-### 🚧 Creational Patterns
-These patterns deal with object creation mechanisms.
+### 🔨 Creational Patterns
 
-- 🔹 [Singleton](./Creational/Singleton/README.md) — A creational pattern that ensures a class has only one instance while providing a global point of access to it. This is useful for managing shared resources or implementing centralized control mechanisms.
-- 🔹 [Factory Method](./Creational/FactoryMethod/README.md) — A creational pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
+| Pattern         | Description                                      | Project                          |
+|-----------------|--------------------------------------------------|----------------------------------|
+| **Singleton**    | Ensure a class has only one instance            | [`LoggerProject`](./Creational/Singleton/LoggerProject) |
+| **Factory Method** | Delegate object creation to subclasses       | [`DocFactory`](./Creational/FactoryMethod/DocFactory)   |
+| **Abstract Factory** | Create families of related objects         | [`PizzaKitFactory`](./Creational/AbstractFactory/PizzaKitFactory) |
