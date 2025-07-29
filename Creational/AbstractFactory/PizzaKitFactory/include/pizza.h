@@ -1,6 +1,7 @@
 #pragma once // __Pizza__
 
 # include <memory>  // For std::unique_ptr
+# include <string>  // For std::string
 # include <vector>  // For std::vector
 
 # include "ingredient.h"              // For IIngredient interface

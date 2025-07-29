@@ -12,7 +12,7 @@ void logFromThread(int id) {
 }
 
 int main() {
-    const int threadCount { 5 }; // Number of threads to create
+    constexpr int threadCount { 5 }; // Number of threads to create
     Logger::getLogger()->log("Starting the logger", LogType::Info);
     std::vector<std::thread> threads;
 
@@ -25,6 +25,6 @@ int main() {
     }
 
     Logger::getLogger()->log("All threads have finished", LogType::Info);
-    // Logger::getLogger()->destroyLogger();
+    Logger::getLogger()->destroyLogger();
     return 0;
 }
