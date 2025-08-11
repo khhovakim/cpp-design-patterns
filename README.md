@@ -21,3 +21,11 @@ Each project:
 | **Abstract Factory** | Create families of related objects             | [`PizzaKitFactory`](./Creational/AbstractFactory/README.md) |
 | **Builder**          | Step-by-step construction of complex objects   | [`MealBuilder`](./Creational/Builder/README.md)             |
 | **Prototype**        | Clone objects without depending on their class | [`Prototype-Game`](./Creational/Prototype/README.md)        |
+
+---
+
+### 🏗 Structural Patterns
+
+| Pattern      | Description                                               | Project                                                 |
+|--------------|-----------------------------------------------------------|---------------------------------------------------------|
+| **Adapter**  | Convert the interface of a class to match another expected | [`PrinterAdapter`](./Structural/Adapter/README.md)      |
